@@ -1,0 +1,16 @@
+{
+  "/": {
+    "handler": "main",
+    "action": "index"
+  },
+  
+  "/foo": {
+    "handler": "main",
+    "action": "foo"
+  },
+  
+  "/foo/{id}": {
+    "handler": "main",
+    "action": "getFoo"
+  }
+}
